@@ -4,6 +4,7 @@
   "description": "This is a website for the fictional campsites review site NUcamp",
   "main": "index.html",
   "scripts": {
+    "scss": "node-sass -o css/ css/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
     "lite": "lite-server"
@@ -11,10 +12,13 @@
   "author": "David Cahill",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "sass": "^1.56.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
